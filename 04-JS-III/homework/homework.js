@@ -219,7 +219,7 @@ function breakStatement(numero) {
   var array = [];
   var suma = numero;
   for(var i= 0; i<10; i++) {
-    suma = suma + 2;
+    suma += 2;
     if(suma === i) break;
     else {
       array.push(suma);
@@ -246,7 +246,7 @@ function continueStatement(numero) {
   for(var i= 0; i<10; i++) {
     if(i === 5) continue;
     else {
-      suma = suma + 2;
+      suma += 2;
       array.push(suma);
     }
   }
